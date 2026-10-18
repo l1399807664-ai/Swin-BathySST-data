@@ -28,4 +28,4 @@ This is a data-only subset of the manuscript's supporting records. It excludes e
 
 Third-party source products are not redistributed here. S1_complete_source_inventory.csv provides their original access URLs and source-specific citation or licence information.
 
-This package does not itself claim a repository DOI, journal acceptance or completion of the journal's data-archiving requirements.
+

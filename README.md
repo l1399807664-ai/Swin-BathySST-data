@@ -2,6 +2,12 @@
 
 Data-only research records supporting the V37 manuscript, "Swin-BathySST: High-fidelity reconstruction of complex deep-sea bathymetry from sparse soundings through multi-feature terrain awareness".
 
+## Reuse requires permission
+
+No open reuse licence is granted for the authors' result tables and metadata. Reuse of material protected by rights held or controlled by the authors requires prior written authorization, for both commercial and non-commercial purposes. Public inspection of this repository does not grant additional reuse permissions. Applicable law, GitHub's Terms of Service and third-party licences remain applicable.
+
+See [Rights and permissions](RIGHTS_AND_PERMISSIONS.md). Permission requests should be directed to the corresponding author, Xiaowen Luo, at luoxiaowen@sio.org.cn.
+
 ## Contents
 
 This package contains 18 result tables and 6 observation, spatial-support and source-metadata tables. DATA_MANIFEST.csv lists their row counts and SHA-256 checksums.

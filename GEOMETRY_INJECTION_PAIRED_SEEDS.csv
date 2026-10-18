@@ -1,0 +1,13 @@
+row_type,scope,fold,seed,SST_RMSE,CONCAT_RMSE,delta_RMSE_m,relative_delta_percent,delta_definition,relative_denominator,status,direction,SST_best_step,CONCAT_best_step,n_valid_training_seed_pairs,n_required_training_seed_pairs,delta_mean_m,delta_sample_SD_m,relative_delta_mean_percent,relative_delta_sample_SD_percent,relative_delta_n_valid_pairs,SST_lower_direction_count,CONCAT_lower_direction_count,tie_direction_count,direction_denominator
+paired_seed,GC0,1,17,68.42502229983288,72.87051390886661,4.445491609033738,6.1005355535070915,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,23000,28000,,,,,,,,,,,
+paired_seed,GC0,1,42,68.72391559141839,72.48878095642138,3.76486536500299,5.193721449483807,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,22000,23000,,,,,,,,,,,
+paired_seed,GC0,1,2026,69.74120755339493,72.21368285034877,2.4724752969538457,3.423832159450519,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,21000,24000,,,,,,,,,,,
+three_paired_seed_summary,GC0,1,17|42|2026,,,,,,,done,,,,3,3,3.560944090330191,1.0021907286696823,4.906029720813805,1.3613449830947861,3,3,0,0,"three paired training seeds, not40 condition/layout units"
+paired_seed,GC1-GC7,1,17,42.725316170527286,45.65135685813916,2.9260406876118736,6.409537172585027,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,23000,28000,,,,,,,,,,,
+paired_seed,GC1-GC7,1,42,42.272375102687064,45.38495753057304,3.1125824278859753,6.858180765706833,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,22000,23000,,,,,,,,,,,
+paired_seed,GC1-GC7,1,2026,42.514535729530614,45.32620299686944,2.8116672673388265,6.203182886360503,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,21000,24000,,,,,,,,,,,
+three_paired_seed_summary,GC1-GC7,1,17|42|2026,,,,,,,done,,,,3,3,2.950096794278892,0.1518930731230371,6.490300274884121,0.33488440469328773,3,3,0,0,"three paired training seeds, not40 condition/layout units"
+paired_seed,GC0-GC7,1,17,45.93777943669049,49.05375148948009,3.1159720527896013,6.352158516271365,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,23000,28000,,,,,,,,,,,
+paired_seed,GC0-GC7,1,42,45.57881766377848,48.772935458804085,3.1941177950256048,6.5489554093448135,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,22000,23000,,,,,,,,,,,
+paired_seed,GC0-GC7,1,2026,45.91786970751365,48.687137978554354,2.7692682710407013,5.687884698132194,RMSE_concat minus RMSE_SST,RMSE_concat,done,SST_lower,21000,24000,,,,,,,,,,,
+three_paired_seed_summary,GC0-GC7,1,17|42|2026,,,,,,,done,,,,3,3,3.0264527062853026,0.2261295304830117,6.196332874582791,0.4511894451145699,3,3,0,0,"three paired training seeds, not40 condition/layout units"

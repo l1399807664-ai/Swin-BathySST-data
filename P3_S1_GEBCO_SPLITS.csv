@@ -1,0 +1,6 @@
+Split,Training sectors,Train windows,Val sector / windows,Test sector / windows,Unique training cells
+g0,G2 / G3 / G4,1251,G1 / 24,G0 / 640,5766760
+g1,G0 / G3 / G4,1214,G2 / 24,G1 / 652,5582730
+g2,G0 / G1 / G4,1240,G3 / 24,G2 / 718,5636290
+g3,G0 / G1 / G2,1421,G4 / 24,G3 / 698,6160296
+g4,G1 / G2 / G3,1281,G0 / 24,G4 / 726,5709225

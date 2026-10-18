@@ -1,0 +1,11 @@
+Property,Value
+Working grid,5508 rows × 2934 columns; Δ = 500 m
+Projection,"WGS84 Lambert conformal conic, two standard parallels"
+Standard parallels,15° and 30°
+Central meridian; latitude of origin,142.854166666667°; 22.706777777778°
+Affine (six coefficients),"[500, 0, −733500, 0, −500, 1385500]"
+"Study bounds (west, south, east, north)","[136.24791666666664, 10.32761111111111, 149.46041666666665, 35.08594444444444]"
+Reference validity,Finite negative elevations within the frozen target-centre extent; missing cells remain NaN
+Permanent reservation,Complete retained multibeam/calibration/external footprints; all-touched rasterization followed by a 64 km buffer
+Eligible regional support,"11,315,630 unique marine cells; 2,832,860.507254922 km²"
+Geographic area,"250,000/k² m² per projected cell, using the local LCC scale factor k"

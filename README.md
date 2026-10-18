@@ -1,31 +1,21 @@
-# Swin-BathySST data
+# Swin-BathySST research data
 
-Data-only research records supporting the V37 manuscript, "Swin-BathySST: High-fidelity reconstruction of complex deep-sea bathymetry from sparse soundings through multi-feature terrain awareness".
-
-## Reuse requires permission
-
-No open reuse licence is granted for the authors' result tables and metadata. Reuse of material protected by rights held or controlled by the authors requires prior written authorization, for both commercial and non-commercial purposes. Public inspection of this repository does not grant additional reuse permissions. Applicable law, GitHub's Terms of Service and third-party licences remain applicable.
-
-See [Rights and permissions](RIGHTS_AND_PERMISSIONS.md). Permission requests should be directed to the corresponding author, Xiaowen Luo, at luoxiaowen@sio.org.cn.
+Result tables and observation metadata for *Swin-BathySST: High-fidelity reconstruction of complex deep-sea bathymetry from sparse soundings through multi-feature terrain awareness*.
 
 ## Contents
 
-This package contains 18 result tables and 6 observation, spatial-support and source-metadata tables. DATA_MANIFEST.csv lists their row counts and SHA-256 checksums.
+The repository contains 24 CSV tables: 18 result tables and 6 metadata tables. [DATA_MANIFEST.csv](DATA_MANIFEST.csv) lists the files, row counts and checksums.
 
-The results cover the principal g1 method comparison, terrain attributes, component comparisons, paired geometry-injection seeds, geographic holdouts, fixed-weight multibeam transfer, matched observations, survey-line spacing, and controlled observation errors. Metadata describes evaluation conditions, observation realizations, the working grid, geographic splits, source products and patch roles.
+The results cover method comparisons, terrain attributes, component analyses, geographic holdouts, fixed-weight transfer, matched observations, survey-line spacing and observation errors. The metadata describes observation conditions, spatial support, source products and patch roles.
 
-## Reading the data
+## Reading the tables
 
-Use the method, fold, seed, checkpoint-selection step, condition, layout and scope fields to identify each comparison. GC0, GC1-GC7 and GC0-GC7 are different aggregation scopes. Geographic assignments, observation layouts and training seeds are distinct dimensions. Historical g0 fixed-transfer records and matched g1 component results keep their original identities.
+Identify each comparison by its method, fold, seed, checkpoint-selection step, condition, layout and aggregation scope. GC0, GC1-GC7 and GC0-GC7 denote different aggregation scopes. Geographic folds, observation layouts and training seeds identify separate dimensions of the experiments.
 
-All result rows and retained cell values preserve their source precision. Empty or NA fields remain unavailable, not zero. The observation-condition metadata table contains the 17 formal GEBCO, multibeam and matched-I2 definitions. Training-bank, validation-recipe and obsolete I3 rows are outside this data-only subset.
+Elevation and observation-consistency errors are reported in metres; slope and aspect errors are reported in degrees. Empty fields indicate unavailable measurements. TFaSR aspect results identify their finite-value scoring support in the corresponding fields.
 
-Elevation and observation-consistency errors are in metres; slope and aspect errors are in degrees. Derivative metrics retain the operators and units specified in the manuscript and accompanying metadata. The TFaSR finite-aspect support rule remains explicitly identified in the result fields.
+[S1_complete_source_inventory.csv](S1_complete_source_inventory.csv) provides the original data sources and access links.
 
-## Scope and access
+## Permissions and contact
 
-This is a data-only subset of the manuscript's supporting records. It excludes executable code, model weights, implementation and checkpoint inventories, training/architecture configurations, internal file paths and execution logs. The research source code and trained weights are not publicly available because a patent application is being prepared; access and use require prior written approval from the authors. No software or weight licence is granted by this data package.
-
-Third-party source products are not redistributed here. S1_complete_source_inventory.csv provides their original access URLs and source-specific citation or licence information.
-
-
+Reuse of the authors' protected result tables and experimental metadata requires prior written authorization. Send requests to **Xiaowen Luo**, [luoxiaowen@sio.org.cn](mailto:luoxiaowen@sio.org.cn), stating the requested files and intended use. See [Rights and permissions](RIGHTS_AND_PERMISSIONS.md).

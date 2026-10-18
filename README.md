@@ -16,6 +16,10 @@ Elevation and observation-consistency errors are reported in metres; slope and a
 
 [S1_complete_source_inventory.csv](S1_complete_source_inventory.csv) provides the original data sources and access links.
 
+## Citation
+
+Cui, J., Luo, X., Jin, X., Wu, Z., Qin, X., Wan, H., & Chen, J. (2026). *Swin-BathySST: result tables and observation metadata* (Version 1.0.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.23449641](https://doi.org/10.5281/zenodo.23449641).
+
 ## Permissions and contact
 
 Reuse of the authors' protected result tables and experimental metadata requires prior written authorization. Send requests to **Xiaowen Luo**, [luoxiaowen@sio.org.cn](mailto:luoxiaowen@sio.org.cn), stating the requested files and intended use. See [Rights and permissions](RIGHTS_AND_PERMISSIONS.md).
